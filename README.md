@@ -10,7 +10,7 @@ Higgsfield turned AI video into real directing — camera moves you pick from a 
 
 > ⚡ **Early access — limited spots.** This is a launch client with a capped number of users, and access can close at any time. If you're in, you're in early.
 
-[![Download](https://img.shields.io/github/v/release/<your-org>/higgsfield-desktop?style=for-the-badge&label=Get%20Early%20Access&color=8B5CF6)](../../releases)
+[![Download](https://img.shields.io/github/v/release/higgsfield-desktop/higgsfield-desktop?style=for-the-badge&label=Get%20Early%20Access&color=8B5CF6)](../../releases)
 
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?style=flat-square)](../../releases)
 [![macOS](https://img.shields.io/badge/macOS-M1--M5-black?style=flat-square)](../../releases)
