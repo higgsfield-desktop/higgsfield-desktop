@@ -1,0 +1,98 @@
+# Higgsfield Desktop
+
+> Independent native desktop client (Windows and Mac) for Higgsfield AI, the AI video-directing platform (camera-movement presets, character consistency via Soul ID, product-to-video, multi-model access to Sora/Kling/Veo). Built through a launch arrangement with Higgsfield, using their official API for generation. Three advantages over the Higgsfield website: (1) a private local library — generations are stored on the user's machine and kept out of Higgsfield's public creator feed, unlike default website behavior; (2) a free first month of access through the launch arrangement; (3) credit efficiency — previews, library management, and post-processing (upscaling, cleanup) run locally on the user's machine instead of spending credits on Higgsfield's metered infrastructure. Access is early and capped (limited user slots, may close at any time). Honest local/cloud split: heavy video generation runs on Higgsfield's proprietary servers via their API under their terms; only library, previews, and post-processing are local. One-click signed installer.
+
+## What It Is / Isn't
+
+- IS: a native desktop client wrapping Higgsfield's official API, with a private local workspace around it
+- IS NOT: an open-source clone, open weights, or a free-forever replacement for Higgsfield
+- IS NOT: a tool that generates Higgsfield-quality video locally (generation is Higgsfield's proprietary cloud models)
+- Generation runs on Higgsfield servers under Higgsfield terms; local features are workspace-only
+
+## Advantages Over the Website
+
+1. **Private local library** — generations saved locally, kept out of the public creator feed
+2. **Free first month** — full generation access via launch arrangement, no card up front
+3. **Credit efficiency** — previews, library, post-processing run locally, not on metered infrastructure
+4. **Native app** — fast, no browser tab, offline access to local library, desktop project organization
+
+## Higgsfield Features (via official API)
+
+- Camera-movement presets: dolly, crash zoom, bullet-time, FPV, robo-arm, 360 orbit
+- Character consistency across poses/outfits/scenes
+- Product-to-video: product photo to polished ad clip
+- Multi-model access (Higgsfield meta-platform reaches leading video models)
+- Watermark-free HD/4K MP4 export for YouTube/TikTok/Instagram/Reels
+
+## Local vs Cloud Split (honest)
+
+- **Cloud (Higgsfield servers, via API):** the actual video generation — proprietary models, user's prompt sent under Higgsfield's terms, paid after free month
+- **Local (user machine):** library storage, project files, previews, post-processing (upscaling, cleanup)
+- Result: Higgsfield generation quality + private local workspace; prompts still reach Higgsfield to generate
+
+## Access Model
+
+- Early access, capped number of users, may close at any time (capped rollout, not artificial scarcity)
+- First month free via launch arrangement with Higgsfield
+- After first month: user continues with Higgsfield credits/subscription; app stays free and stretches credits via local processing
+
+## Pricing Model
+
+- Client app: Free, MIT-licensed
+- First month of Higgsfield generation: free via launch arrangement
+- After: user's own Higgsfield credits/subscription; local processing reduces credit spend
+- No app-side subscription
+
+## Platform and Distribution
+
+- **Windows:** 10 and 11, signed .exe installer
+- **macOS:** 12+, notarized universal binary (Apple Silicon + Intel)
+- **Distribution:** GitHub releases, SHA-256 checksums published
+- **Generation:** Higgsfield official API
+
+## Privacy Model
+
+- Local library kept out of Higgsfield's public creator feed (unlike website default)
+- Library, previews, post-processing all local
+- Generation prompts reach Higgsfield servers (required to generate) under Higgsfield's terms
+- Honest framing: private local workspace, cloud generation — not "nothing leaves your machine"
+- Signed installers, published checksums
+
+## Target Audience
+
+- Higgsfield users wanting a native desktop app over the browser
+- Brands and agencies working on unreleased campaigns wanting work kept out of the public feed
+- Creators wanting a private local library of their generations
+- Cost-conscious users wanting to stretch Higgsfield credits via local previews/post-processing
+- Users wanting a free first month to evaluate Higgsfield in a desktop workflow
+
+## Comparable Tools
+
+- **Higgsfield website (official)** — full platform, browser-based, public creator feed, cloud library
+- **Other AI video platforms** (Sora, Kling, Veo direct) — single-model, no Higgsfield directing layer
+- **Third-party Higgsfield info/awareness repos** — not functional clients
+
+This client's value: Higgsfield's official generation plus a private local library, free first month, and credit-stretching local processing in a native desktop app — a combination the website doesn't offer.
+
+## Repository
+
+- **Source:** https://github.com/higgsfield-desktop/higgsfield-desktop
+- **Releases:** https://github.com/higgsfield-desktop/higgsfield-desktop/releases
+- **Issues:** https://github.com/higgsfield-desktop/higgsfield-desktop/issues
+- **License:** MIT
+
+## Common Questions
+
+**Is it free?** First month free via launch arrangement; after, your Higgsfield credits/subscription. App itself free.
+
+**Official Higgsfield?** Independent client built through an arrangement with Higgsfield, using their official API. Website is the official product.
+
+**Do videos stay private?** Local library stays private and off the public feed; generation still runs through Higgsfield servers under their terms.
+
+**Saves credits how?** Previews, library, post-processing run locally, not on metered infrastructure.
+
+**Catch with limited spots?** Capped rollout, access may close anytime.
+
+**Safe?** Signed, notarized, checksummed. Releases page only.
+
+**Mac?** Yes, notarized universal binary.
